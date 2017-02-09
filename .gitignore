@@ -10,3 +10,5 @@ feng_cd_debug/Prog_bs_test_R2012b_sysgen_error\.log
 *.log
 
 *.autosave
+
+*.mat
