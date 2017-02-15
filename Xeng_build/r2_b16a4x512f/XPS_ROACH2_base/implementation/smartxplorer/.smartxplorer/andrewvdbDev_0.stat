@@ -1,0 +1,59 @@
+START:Strategy:1:MapRunTime
+REMOTE_PID:28633
+RUNNING:28633:28637:MapRunTime:map:system.ngd: -ol high -w  -p xc6vsx475t-1-ff1759 -o system_map.ncd  :slhome:slandrew:slDesktop:slXeng_build:slr2_b16a4x512f:slXPS_ROACH2_base:slimplementation:slsmartxplorer:slrun1:slsystem.pcf
+STATUS:MapRunTime:map:Score:None:lut:None:slice_reg:140,558 (23%):slice:None:bram:None:dsp48:None:mult18x18:None:Power:None:wnsInfo:None:Time:1936.60 secs 
+STATUS:MapRunTime:map:Score:None:lut:94,339 (31%):slice_reg:140,558 (23%):slice:None:bram:None:dsp48:None:mult18x18:None:Power:None:wnsInfo:None:Time:1936.60 secs 
+STATUS:MapRunTime:map:Score:None:lut:94,339 (31%):slice_reg:140,558 (23%):slice:41,131 (55%):bram:None:dsp48:None:mult18x18:None:Power:None:wnsInfo:None:Time:1936.60 secs 
+STATUS:MapRunTime:map:Score:None:lut:94,339 (31%):slice_reg:140,558 (23%):slice:41,131 (55%):bram:348:dsp48:None:mult18x18:None:Power:None:wnsInfo:None:Time:1936.60 secs 
+STATUS:MapRunTime:map:Score:None:lut:94,339 (31%):slice_reg:140,558 (23%):slice:41,131 (55%):bram:424:dsp48:None:mult18x18:None:Power:None:wnsInfo:None:Time:1936.60 secs 
+STATUS:MapRunTime:map:Score:None:lut:94,339 (31%):slice_reg:140,558 (23%):slice:41,131 (55%):bram:424:dsp48:642 (31%):mult18x18:None:Power:None:wnsInfo:None:Time:1936.60 secs 
+DONE:map:0
+RUNNING:28633:28954:MapRunTime:par:system_map.ncd: -ol high  -w system.ncd  :slhome:slandrew:slDesktop:slXeng_build:slr2_b16a4x512f:slXPS_ROACH2_base:slimplementation:slsmartxplorer:slrun1:slsystem.pcf
+STATUS:MapRunTime:par:Score:82580:lut:None:slice_reg:None:slice:None:bram:None:dsp48:None:mult18x18:None:Power:None:wnsInfo:None:Time:2707.20 secs 
+STATUS:MapRunTime:par:Score:81410:lut:None:slice_reg:None:slice:None:bram:None:dsp48:None:mult18x18:None:Power:None:wnsInfo:None:Time:2767.24 secs 
+STATUS:MapRunTime:par:Score:9222:lut:None:slice_reg:None:slice:None:bram:None:dsp48:None:mult18x18:None:Power:None:wnsInfo:None:Time:2952.37 secs 
+STATUS:MapRunTime:par:Score:8883:lut:None:slice_reg:None:slice:None:bram:None:dsp48:None:mult18x18:None:Power:None:wnsInfo:None:Time:2992.40 secs 
+STATUS:MapRunTime:par:Score:8883:lut:None:slice_reg:None:slice:None:bram:None:dsp48:None:mult18x18:None:Power:None:wnsInfo:-0.616ns:Time:3017.42 secs 
+DONE:par:0
+RUNNING:28633:29154:MapRunTime:trce:/home/andrew/Desktop/Xeng_build/r2_b16a4x512f/XPS_ROACH2_base/implementation/smartxplorer/run1/system.ncd::slhome:slandrew:slDesktop:slXeng_build:slr2_b16a4x512f:slXPS_ROACH2_base:slimplementation:slsmartxplorer:slrun1:slsystem.pcf -xml :slhome:slandrew:slDesktop:slXeng_build:slr2_b16a4x512f:slXPS_ROACH2_base:slimplementation:slsmartxplorer:slrun1:slsystem.twx  -o :slhome:slandrew:slDesktop:slXeng_build:slr2_b16a4x512f:slXPS_ROACH2_base:slimplementation:slsmartxplorer:slrun1:slsystem.twr
+STATUS:MapRunTime:trce:Score:8883:lut:None:slice_reg:None:slice:None:bram:None:dsp48:None:mult18x18:None:Power:None:wnsInfo:None:Time:3357.68 secs 
+DONE:trce:0
+START:Strategy:3:MapRegDup
+REMOTE_PID:29202
+RUNNING:29202:29206:MapRegDup:map:system.ngd: -ol high -xe n -register_duplication on -w  -p xc6vsx475t-1-ff1759 -o system_map.ncd  :slhome:slandrew:slDesktop:slXeng_build:slr2_b16a4x512f:slXPS_ROACH2_base:slimplementation:slsmartxplorer:slrun3:slsystem.pcf
+STATUS:MapRegDup:map:Score:None:lut:None:slice_reg:140,561 (23%):slice:None:bram:None:dsp48:None:mult18x18:None:Power:None:wnsInfo:None:Time:1966.65 secs 
+STATUS:MapRegDup:map:Score:None:lut:94,500 (31%):slice_reg:140,561 (23%):slice:None:bram:None:dsp48:None:mult18x18:None:Power:None:wnsInfo:None:Time:1966.65 secs 
+STATUS:MapRegDup:map:Score:None:lut:94,500 (31%):slice_reg:140,561 (23%):slice:41,024 (55%):bram:None:dsp48:None:mult18x18:None:Power:None:wnsInfo:None:Time:1966.65 secs 
+STATUS:MapRegDup:map:Score:None:lut:94,500 (31%):slice_reg:140,561 (23%):slice:41,024 (55%):bram:348:dsp48:None:mult18x18:None:Power:None:wnsInfo:None:Time:1966.65 secs 
+STATUS:MapRegDup:map:Score:None:lut:94,500 (31%):slice_reg:140,561 (23%):slice:41,024 (55%):bram:424:dsp48:None:mult18x18:None:Power:None:wnsInfo:None:Time:1966.65 secs 
+STATUS:MapRegDup:map:Score:None:lut:94,500 (31%):slice_reg:140,561 (23%):slice:41,024 (55%):bram:424:dsp48:642 (31%):mult18x18:None:Power:None:wnsInfo:None:Time:1966.65 secs 
+DONE:map:0
+RUNNING:29202:29539:MapRegDup:par:system_map.ncd: -ol high -xe n  -w system.ncd  :slhome:slandrew:slDesktop:slXeng_build:slr2_b16a4x512f:slXPS_ROACH2_base:slimplementation:slsmartxplorer:slrun3:slsystem.pcf
+STATUS:MapRegDup:par:Score:82881:lut:None:slice_reg:None:slice:None:bram:None:dsp48:None:mult18x18:None:Power:None:wnsInfo:None:Time:2743.30 secs 
+STATUS:MapRegDup:par:Score:15146:lut:None:slice_reg:None:slice:None:bram:None:dsp48:None:mult18x18:None:Power:None:wnsInfo:None:Time:2988.49 secs 
+STATUS:MapRegDup:par:Score:14775:lut:None:slice_reg:None:slice:None:bram:None:dsp48:None:mult18x18:None:Power:None:wnsInfo:None:Time:3028.52 secs 
+STATUS:MapRegDup:par:Score:14775:lut:None:slice_reg:None:slice:None:bram:None:dsp48:None:mult18x18:None:Power:None:wnsInfo:-0.856ns:Time:3053.54 secs 
+DONE:par:0
+RUNNING:29202:29741:MapRegDup:trce:/home/andrew/Desktop/Xeng_build/r2_b16a4x512f/XPS_ROACH2_base/implementation/smartxplorer/run3/system.ncd::slhome:slandrew:slDesktop:slXeng_build:slr2_b16a4x512f:slXPS_ROACH2_base:slimplementation:slsmartxplorer:slrun3:slsystem.pcf -xml :slhome:slandrew:slDesktop:slXeng_build:slr2_b16a4x512f:slXPS_ROACH2_base:slimplementation:slsmartxplorer:slrun3:slsystem.twx  -o :slhome:slandrew:slDesktop:slXeng_build:slr2_b16a4x512f:slXPS_ROACH2_base:slimplementation:slsmartxplorer:slrun3:slsystem.twr
+STATUS:MapRegDup:trce:Score:14775:lut:None:slice_reg:None:slice:None:bram:None:dsp48:None:mult18x18:None:Power:None:wnsInfo:None:Time:3394.24 secs 
+DONE:trce:0
+START:Strategy:5:MapLogOptRegDup
+REMOTE_PID:29792
+RUNNING:29792:29796:MapLogOptRegDup:map:system.ngd: -ol high -xe n -logic_opt on -register_duplication on -t 2 -w  -p xc6vsx475t-1-ff1759 -o system_map.ncd  :slhome:slandrew:slDesktop:slXeng_build:slr2_b16a4x512f:slXPS_ROACH2_base:slimplementation:slsmartxplorer:slrun5:slsystem.pcf
+STATUS:MapLogOptRegDup:map:Score:None:lut:None:slice_reg:140,564 (23%):slice:None:bram:None:dsp48:None:mult18x18:None:Power:None:wnsInfo:None:Time:1941.52 secs 
+STATUS:MapLogOptRegDup:map:Score:None:lut:96,281 (32%):slice_reg:140,564 (23%):slice:None:bram:None:dsp48:None:mult18x18:None:Power:None:wnsInfo:None:Time:1941.52 secs 
+STATUS:MapLogOptRegDup:map:Score:None:lut:96,281 (32%):slice_reg:140,564 (23%):slice:39,600 (53%):bram:None:dsp48:None:mult18x18:None:Power:None:wnsInfo:None:Time:1941.52 secs 
+STATUS:MapLogOptRegDup:map:Score:None:lut:96,281 (32%):slice_reg:140,564 (23%):slice:39,600 (53%):bram:348:dsp48:None:mult18x18:None:Power:None:wnsInfo:None:Time:1941.52 secs 
+STATUS:MapLogOptRegDup:map:Score:None:lut:96,281 (32%):slice_reg:140,564 (23%):slice:39,600 (53%):bram:424:dsp48:None:mult18x18:None:Power:None:wnsInfo:None:Time:1941.52 secs 
+STATUS:MapLogOptRegDup:map:Score:None:lut:96,281 (32%):slice_reg:140,564 (23%):slice:39,600 (53%):bram:424:dsp48:642 (31%):mult18x18:None:Power:None:wnsInfo:None:Time:1941.53 secs 
+DONE:map:0
+RUNNING:29792:30134:MapLogOptRegDup:par:system_map.ncd: -ol high -xe n  -w system.ncd  :slhome:slandrew:slDesktop:slXeng_build:slr2_b16a4x512f:slXPS_ROACH2_base:slimplementation:slsmartxplorer:slrun5:slsystem.pcf
+STATUS:MapLogOptRegDup:par:Score:48749:lut:None:slice_reg:None:slice:None:bram:None:dsp48:None:mult18x18:None:Power:None:wnsInfo:None:Time:2677.12 secs 
+STATUS:MapLogOptRegDup:par:Score:48742:lut:None:slice_reg:None:slice:None:bram:None:dsp48:None:mult18x18:None:Power:None:wnsInfo:None:Time:2702.13 secs 
+STATUS:MapLogOptRegDup:par:Score:0:lut:None:slice_reg:None:slice:None:bram:None:dsp48:None:mult18x18:None:Power:None:wnsInfo:None:Time:2717.14 secs 
+STATUS:MapLogOptRegDup:par:Score:0:lut:None:slice_reg:None:slice:None:bram:None:dsp48:None:mult18x18:None:Power:None:wnsInfo:0.005ns:Time:2787.19 secs 
+DONE:par:0
+RUNNING:29792:30293:MapLogOptRegDup:trce:/home/andrew/Desktop/Xeng_build/r2_b16a4x512f/XPS_ROACH2_base/implementation/smartxplorer/run5/system.ncd::slhome:slandrew:slDesktop:slXeng_build:slr2_b16a4x512f:slXPS_ROACH2_base:slimplementation:slsmartxplorer:slrun5:slsystem.pcf -xml :slhome:slandrew:slDesktop:slXeng_build:slr2_b16a4x512f:slXPS_ROACH2_base:slimplementation:slsmartxplorer:slrun5:slsystem.twx  -o :slhome:slandrew:slDesktop:slXeng_build:slr2_b16a4x512f:slXPS_ROACH2_base:slimplementation:slsmartxplorer:slrun5:slsystem.twr
+STATUS:MapLogOptRegDup:trce:Score:0:lut:None:slice_reg:None:slice:None:bram:None:dsp48:None:mult18x18:None:Power:None:wnsInfo:None:Time:3122.46 secs 
+DONE:trce:0
+DONE:Xplorer
